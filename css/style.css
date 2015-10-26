@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,400italic,600italic,800,700,700italic,800italic);
+html {
+    font-family: 'Open Sans';
+}
+
+
+.menu {
+    vertical-align: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    font-size: 17px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-bottom: 2px solid black;
+    display: inline;
+}
+
+
+.inside {
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+.select {
+    color: #D8D8D8;
+}
+
+h1 {
+	padding-bottom: 20px;
+    font-weight: 800;
+	font-size: 60px;
+    text-align: left;
+  
+}
+
+.intro {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.year {
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.filler {
+    margin-top: 100px;
+}
+
+.half {
+    margin-top: 40px;
+}
+
+.large {
+    margin-top: 150px;
+}
+
+img {
+    height: auto;
+    width: 47%;
+    display: inline;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.icon {
+    height: 100%;
+    width: 100%;
+}
+
+.float {
+    float: left;
+    padding-right: 50px;
+}
+
+
+.caption {
+    font-size:;
+}
+
+.footer {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    vertical-align: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+}
+
+a:hover{
+    color: #D8D8D8;
+}
+
+.resume {
+    text-align: left;
+    line-height: 16px;
+}
+
+.padding {
+    padding-bottom: 20px;
+}
+
+.show-desktop {
+    display: block;
+}
+
+.show-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .show-desktop {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+    }
+
+    .menu {
+    vertical-align: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    width:100%;
+    height: auto;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: block;
+}
+
+.inside {
+    font-size: 12px;
+    border: 1px solid black;
+}  
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: left;
+    padding-top: 30px;
+}
+
+  }
+
+
+
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 305px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
